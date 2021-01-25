@@ -1,0 +1,39 @@
+ // clear = () => {
+  //   this.textInputRef.clear();
+  //   this.textInputRefs.clear();
+  //   this.textInputRefss.clear();
+  //   this.setState({
+  //     price:''
+  //   })
+
+    
+  // }
+    ref={ref => this.textInputRef = ref}
+
+
+
+       {/* <Picker
+  selectedValue={this.state.day}
+  style={{height: 50, width: 100}}
+  onValueChange={(itemValue, itemIndex) =>
+    this.setState({day: itemValue})
+  }
+  >
+  <Picker.Item  label= 'Sunday' value= 'Sunday' />
+ 
+  <Picker.Item label="Monday" value="Monday" />
+ 
+  <Picker.Item label="Tuesday" value="Tuesday" />
+  <Picker.Item label="Wednesday" value="Wednesday" />
+ 
+  <Picker.Item label="Thursday" value="Thursday" />
+ 
+ 
+  <Picker.Item label="Friday" value="Friday" />
+  <Picker.Item label="Saturday" value="Saturday" />
+
+</Picker> */}
+
+
+ref={ref => this.textInputRefs = ref}
+import {Picker} from '@react-native-community/picker';
